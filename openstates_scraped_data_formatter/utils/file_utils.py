@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 from urllib import request
 from typing import Any, TypedDict
-from utils.file_utils import format_timestamp, slugify
 
 
 class SessionInfo(TypedDict):
